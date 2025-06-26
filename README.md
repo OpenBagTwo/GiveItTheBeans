@@ -10,12 +10,19 @@ and download it to your world's "datapacks" folder.
 
 Once installed, grab a few stacks of snowballs and hop on a Happy Ghast. Every
 five seconds, the datapack will check if you're holding a snowball. If you are,
-then one snowball will be deducted from your stack and "fed" to the happy ghast,
+then one snowball will be deducted from your hand and "fed" to the happy ghast,
 applying a 2x speed bost for the next five seconds.
 
 ### Uninstalling
 
 To uninstall the datapack, simply remove it from your world.
+
+To be extra safe, you can also run the command:
+```mcfunction
+/function gitb:uninstall
+```
+from the ground / without any snowballs in your hand to make extra special sure
+you've reset the Happy Bois' speed attributes.
 
 ## Compatibility
 
