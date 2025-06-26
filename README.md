@@ -5,13 +5,13 @@ This datapack allows you to give Happy Ghasts a much needed speed boost by
 
 ## How to Use
 
-Download the [latest release](https://github.com/OpenBagTwo/GiveItTheBeans/releases)
-and download it to your world's "datapacks" folder.
+Download the [latest release](https://github.com/OpenBagTwo/GiveItTheBeans/releases),
+and save it to your world's "datapacks" folder.
 
-Once installed, grab a few stacks of snowballs and hop on a Happy Ghast. Every
+Once installed, grab a few stacks of snowballs, and hop on a Happy Ghast. Every
 five seconds, the datapack will check if you're holding a snowball. If you are,
 then one snowball will be deducted from your hand and "fed" to the happy ghast,
-applying a 2x speed bost for the next five seconds.
+applying a speed bost for the next five seconds.
 
 ### Uninstalling
 
