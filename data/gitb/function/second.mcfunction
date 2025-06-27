@@ -3,12 +3,10 @@
 # Called by: #minecraft:load
 
 # resets speed
-function gitb:uninstall
+function gitb:reset
 
-execute as @p[nbt={SelectedItem: {id:"minecraft:snowball"}, RootVehicle:{Entity:{id:"minecraft:happy_ghast"}}}] run attribute @n[type=minecraft:happy_ghast] minecraft:flying_speed modifier add gitb:gitb_mh 0.05 add_value
-execute as @p[nbt={SelectedItem: {id:"minecraft:snowball"}, RootVehicle:{Entity:{id:"minecraft:happy_ghast"}}}] run item modify entity @s weapon.mainhand {function:"minecraft:set_count", count:-1, add:true}
+execute as @p[nbt={SelectedItem: {id:"minecraft:snowball"}, RootVehicle:{Entity:{id:"minecraft:happy_ghast"}}}] run function gitb:boost_mh
 
-execute as @p[nbt={equipment:{offhand:{id:"minecraft:snowball"}}, RootVehicle:{Entity:{id:"minecraft:happy_ghast"}}}] run attribute @n[type=minecraft:happy_ghast] minecraft:flying_speed modifier add gitb:gitb_oh 0.05 add_value
-execute as @p[nbt={equipment:{offhand:{id:"minecraft:snowball"}}, RootVehicle:{Entity:{id:"minecraft:happy_ghast"}}}] run item modify entity @s weapon.offhand {function:"minecraft:set_count", count:-1, add:true}
+execute as @p[nbt={equipment:{offhand:{id:"minecraft:snowball"}}, RootVehicle:{Entity:{id:"minecraft:happy_ghast"}}}] run function gitb:boost_oh
 
 schedule function gitb:second 5s

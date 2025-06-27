@@ -19,7 +19,7 @@ To uninstall the datapack, simply remove it from your world.
 
 To be extra safe, you can also run the command:
 ```mcfunction
-/function gitb:uninstall
+/function gitb:reset
 ```
 from the ground / without any snowballs in your hand to make extra special sure
 you've reset the Happy Bois' speed attributes.
