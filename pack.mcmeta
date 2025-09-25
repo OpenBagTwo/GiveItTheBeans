@@ -1,6 +1,8 @@
 {
     "pack": {
         "pack_format": 80,
+        "min_format": 80,
+        "max_format": 9999,
         "supported_formats": {"min_inclusive": 80, "max_inclusive": 9999},
         "description": [{"text":"Give Happy Ghasts a Much-Needed Speed Boost","color":"aqua"}]
 	},
