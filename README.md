@@ -24,13 +24,6 @@ To be extra safe, you can also run the command:
 from the ground / without any snowballs in your hand to make extra special sure
 you've reset the Happy Bois' speed attributes.
 
-## Compatibility
-
-This datapack has been tested on versions:
-
-- [x] 1.21.6
-
-
 ## Contributing
 
 Find a bug? Have a suggestion or a question? Want to contribute a new feature or enhancement?
